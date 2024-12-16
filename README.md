@@ -3,16 +3,14 @@ Plate Guesser is an interactive and engaging game built using HTML, CSS, and pla
 
 
 **How It Works:**
-Add Plates: Players can click the "Add Plate" button to dynamically add plates to a stack.
 
+Add Plates: Players can click the "Add Plate" button to dynamically add plates to a stack.
 Guess the Position: A random position is generated for a plate in the stack. Players are prompted to input their guess for the position.
 
 
 **Scoring:**
 Full Points: If the guessed position matches the randomly generated position.
-
 Half Points: If the guessed position is close to the actual position.
-
 Zero Points: If the guessed position is far from the correct position.
 
 
@@ -24,10 +22,9 @@ Built using plain JavaScript for DOM manipulation and CSS for styling.
 
 
 **Tech Stack:**
+
 HTML: Structure of the game.
-
 CSS: Styling for the plates and interface.
-
 JavaScript: Game logic, random number generation, and user interaction.
 
 
