@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+}
+p{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+.plate_container,
+.plates
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.plate{
+    width: 22vw;
+    height: 1.25rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+#newplate{
+    width: 22vw;
+    height: 1.25rem;
+    background-color: peru;
+    border-radius: 0.5rem;
+}
+button{
+    width: 11vw;
+    height: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    color: black;
+    margin-top: 0.75rem;
+}
+input{
+    width: 11vw;
+    height: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    color: black;
+}
